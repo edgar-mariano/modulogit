@@ -1,7 +1,1 @@
-meu primeiro sistema no gitS
-
-addd mais linhas 
-
-mais linahsgi
-
-maiskbduiouvho
+meu primeiro sistema no git (alterado e atalizado)
