@@ -3,21 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Projeto bootstrap 4.5</title>
     <style type="text/css">
-    .div {
-        width: 200px;
-        height: 170px;
-       background-color: #eee;
-    }
-    </style>
+       #area {
+           border: 1px solid #ccc;
+           padding: 20px;
+           background-color: #eeeeee;
+       } 
+</style>    
 </head>
 <body>
-   <div class="div"></div>
-   <button>Ação</button>
-     
+    <div class="container">
+       <button class="btn btn-primary" data-toggle="collapse" data-target="#area">
+           mostrar/esconder</button>
+           <div class="collapse" id="area">
+               o teto escondido que vai aparece.
+           </div>
+    </div>
     <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="bootstrap.bundle.min.js"></script>
 </body>
 </html>
+    
